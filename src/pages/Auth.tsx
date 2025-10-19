@@ -158,9 +158,27 @@ const Auth = () => {
           </form>
         </div>
 
-        <p className="text-center text-sm text-muted-foreground mt-6">
-          Powered by Perplexity AI • Built with Supabase
-        </p>
+        <div className="mt-6 space-y-3">
+          <div className="flex flex-col items-center gap-2 text-xs text-muted-foreground">
+            <div className="flex flex-wrap justify-center gap-3">
+              <a href="mailto:girish@ladestack.in" className="hover:text-primary transition-colors">
+                girish@ladestack.in
+              </a>
+              <a href="https://instagram.com/girish_lade_" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                @girish_lade_
+              </a>
+              <a href="https://github.com/girishlade111" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                github.com/girishlade111
+              </a>
+            </div>
+            <p className="text-center">
+              Powered by Perplexity AI • Built with Supabase
+            </p>
+            <p className="text-center">
+              © {new Date().getFullYear()} <a href="https://ladestack.in" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">LadeStack</a>. All rights reserved.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
